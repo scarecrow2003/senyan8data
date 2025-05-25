@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hCaptcha Verify</title>
+    <script src="https://hcaptcha.com/1/api.js" async defer></script>
+  </head>
+  <body>
+    <form id="captcha-form">
+      <div
+        class="h-captcha"
+        data-sitekey="c89e9058-c18c-4054-9b20-dd5653a61dae"
+        data-callback="onSuccess"
+      ></div>
+    </form>
+
+    <script>
+      function onSuccess(token) {
+        window.wx.miniProgram.postMessage({ data: { captchaToken: token } });
+      }
+    </script>
+  </body>
+</html>

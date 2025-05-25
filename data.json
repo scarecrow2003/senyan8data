@@ -1,0 +1,16 @@
+[
+    {
+        "id": "202504040001",
+        "name": "花花", "description": 
+        "好看的花花", 
+        "img_url": "https://scarecrow2003.github.io/senyan8data/images/flower.jpg", 
+        "price": "12"
+    },
+    {
+        "id": "202504040002", 
+        "name": "草草", 
+        "description": "好看的草草", 
+        "img_url": "https://scarecrow2003.github.io/senyan8data/images/flower.jpg", 
+        "price": "15"
+    }
+]
